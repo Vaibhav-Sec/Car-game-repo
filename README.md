@@ -1,13 +1,17 @@
-README.md
 # Car Game DevSecOps Project
 
-This is a Java-based Car Game project built using DevSecOps tools.
-
-Tools used:
-- GitHub
-- Jenkins
+## Tech Stack
+- Java
 - Maven
-- Docker
+- Jenkins
 - SonarQube
 - Trivy
 - OWASP ZAP
+- Docker
+
+## Pipeline
+1. Build
+2. Code Scan
+3. Docker Image Scan
+4. Security Testing
+5. Deployment
